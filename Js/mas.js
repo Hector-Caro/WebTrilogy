@@ -9,7 +9,7 @@ var Boton3 = document.getElementById('Boton3');
 Boton3.addEventListener('click', function() {
    // Acciones a realizar al hacer clic en "Atrás"
    // Por ejemplo, volver a la página anterior
-   window.location.href = "../HTML/info-js.html"; 
+   window.location.href = "../html/info-js.html"; 
 });
 
 document.addEventListener("DOMContentLoaded", function() {

@@ -25,13 +25,13 @@ var Boton1= document.getElementById('Boton1');
 Boton.addEventListener('click', function() {
    // Acciones a realizar al hacer clic en "Atrás"
    // Por ejemplo, volver a la página anterior
-   window.location.href = "../HTML/Inicio.html"; 
+   window.location.href = "../index.html"; 
 });
 
 Boton1.addEventListener('click', function() {
    // Acciones a realizar al hacer clic en "Siguiente"
    // Por ejemplo, redireccionar a la siguiente página
-   window.location.href = '../HTML/info-css.html';
+   window.location.href = '../html/info-css.html';
 });
 
 
@@ -41,13 +41,13 @@ Boton1.addEventListener('click', function() {
 Boton.addEventListener('click', function() {
   // Acciones a realizar al hacer clic en "Atrás"
   // Por ejemplo, volver a la página anterior
-  window.location.href = "../HTML/info-css.html"; 
+  window.location.href = "../html/info-css.html"; 
 });
 
 Boton1.addEventListener('click', function() {
   // Acciones a realizar al hacer clic en "Siguiente"
   // Por ejemplo, redireccionar a la siguiente página
-  window.location.href = '../HTML/masinfo.html';
+  window.location.href = '../html/masinfo.html';
 });
 
 /* Funcion del boton a replit */
