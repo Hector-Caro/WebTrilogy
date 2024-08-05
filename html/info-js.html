@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,
+    maximum-scale=1.0,minimum-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/png" href="../img/principal/logo.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <title>WebTrilogy</title>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+          <img src="../img/principal/logo.png" alt="logo" class="logo1">
+        </div>
+        <div class="CODE">
+            <h1>WebTrilogy</h1>
+        </div>
+        
+        
+        <div class="nav-links" id="nav1">
+          <ul>
+            <li><a href="../index.html" id="inicio">Inicio</a></li>
+            <li><a href="info.html" id="html">HTML</a></li>
+            <li><a href="info-css.html" id="css">CSS</a></li>
+            <li><a href="info-js.html" id="js">JavaScript</a></li>
+            <li><a href="masinfo.html" id="mas">Más Información</a></li>
+          </ul>
+        </div>
+    </nav>
+
+    <div class="contenedor">
+
+        <h2>JavaScript</h2>
+    
+        <h3>¿Que es?</h3>
+        <p>
+          JavaScript (JS) es un lenguaje de programación utilizado en páginas web para hacerlas más interactivas y
+          dinámicas. Permite agregar funcionalidades como validaciones de formularios, animaciones, cambios de contenido y
+          respuestas a acciones del usuario. Es ejecutado en el navegador web y también se puede usar en aplicaciones
+          móviles y servidores. En resumen, JavaScript hace que las páginas web sean más dinámicas y brinda una mejor
+          experiencia al usuario.
+        </p>
+    
+        <h3>La etiqueta &lt;script&gt; :</h3>
+        <p>En HTML, el código JavaScript se inserta entre las etiquetas &lt;script&gt; y &lt;/script&gt;.</p>
+        <img src="../img/infojs/ejemplo1.png" alt="">
+        <p>
+          Esta etiqueta se debe encontra al final del codigo.
+          <br>
+          Los scripts también se pueden colocar en archivos externos:
+          <br><br>
+          <img src="../img/infojs/ejemplo2.png" alt="">
+          <br><br>
+          Los scripts externos son prácticos cuando se usa el mismo código en muchas páginas web diferentes.
+          <br><br>
+          Los archivos JavaScript tienen la extensión de archivo .js .
+          <br><br>
+          Para usar una secuencia de comandos externa, coloque el nombre del archivo de secuencia de comandos en el atributo
+          src (fuente) de una etiqueta script :
+          <br><br>
+          <img src="../img/infojs/ejemplo3.png" alt="">
+        </p>
+    
+        <h3>Tipos de salida en JS</h3>
+        <p>
+          JavaScript puede "mostrar" datos de diferentes maneras:
+        <ul>
+          <li>
+            Escribir en un elemento HTML, usando innerHTML.
+            <br><br>
+            <img src="../img/infojs/ejemplo1.png" alt="">
+          </li>
+          <li>
+            Escribir en la salida HTML usando document.write().
+            <br><br>
+            <img src="../img/infojs/ejemplo4.png" alt="">
+          </li>
+          <li>
+            Escribir en un cuadro de alerta, usando window.alert().
+            <br><br>
+            <img src="../img/infojs/ejemplo5.png" alt="">
+          </li>
+          <li>
+            Escribiendo en la consola del navegador, usando console.log().
+            <br><br>
+            <img src="../img/infojs/ejemplo6.png" alt="">
+          </li>
+        </ul>
+        </p>
+    
+        <h3>Sintaxis JavaScript</h3>
+    
+        <h4>Valores Fijos</h4>
+        <p class="p1">
+          Las dos reglas de sintaxis más importantes para valores fijos son:
+    
+        <ol>
+          <li>
+            Los números se escriben con o sin decimales:
+            <br><br>
+            <img src="../img/infojs/ejemplo7.png" alt="">
+          </li>
+          <li>
+            Las cadenas son texto, escrito entre comillas simples o dobles:
+            <br><br>
+            <img src="../img/infojs/ejemplo8.png" alt="">
+          </li>
+        </ol>
+        </p>
+    
+        <h4>Variables en JS</h4>
+        <p class="p1">
+          En un lenguaje de programación, las variables se utilizan para almacenar valores de datos.
+          <br><br>
+          JavaScript usa las palabras clave var, let y const para declarar variables .
+          <br><br>
+          Se utiliza un signo igual para asignar valores a las variables.
+          <br><br>
+          En este ejemplo, x se define como una variable y se le asigna el valor 6:
+          <br><br>
+          <img src="../img/infojs/ejemplo9.png" alt="">
+        </p>
+    
+        <h4>Comentarios en JS</h4>
+    
+        <p class="p1">
+          El código después de barras oblicuas dobles // o entre /* y */se trata como un comentario .
+          <br><br>
+          Los comentarios se ignoran y no se ejecutarán:
+          <br><br>
+          <img src="../img/infojs/ejemplo10.png" alt="">
+        </p>
+    
+        <h3>Variables en JS</h3>
+    
+        <p>
+          En JavaScript, las variables se utilizan para almacenar y manipular datos. Son contenedores que pueden almacenar
+          diferentes tipos de información, como números, texto, arreglos y objetos. Aquí tienes un resumen de cómo funcionan
+          las variables en JavaScript:
+    
+        <ol>
+          <li>
+            Declaración de variables: Para crear una variable en JavaScript, se utiliza la palabra clave var, let o const,
+            seguida de un nombre único para identificarla.
+            <br><br>
+            Ejemplo:
+            <br><br>
+            <img src="../img/infojs/ejemplo11.png" alt="">
+          </li>
+          <li>
+            Asignación de valor: Después de declarar una variable, se le puede asignar un valor utilizando el operador de
+            asignación (=).
+            <br><br>
+            Ejemplo:
+            <br><br>
+            <img src="../img/infojs/ejemplo12.png" alt="">
+          </li>
+          <li>
+            Tipos de datos: JavaScript es un lenguaje de tipado dinámico, lo que significa que no es necesario especificar
+            el tipo de dato al declarar una variable. El tipo de dato se infiere automáticamente según el valor asignado.
+            <br><br>
+            Ejemplo:
+            <br><br>
+            <img src="../img/infojs/ejemplo13.png" alt="">
+          </li>
+          <li>
+            Uso de variables: Una vez que se ha asignado un valor a una variable, se puede utilizar en operaciones,
+            expresiones o para mostrar información.
+            <br><br>
+            Ejemplo:
+            <br><br>
+            <img src="../img/infojs/ejemplo14.png" alt="">
+          </li>
+          <li>
+            Cambio de valor: En JavaScript, las variables pueden cambiar de valor durante la ejecución del programa.
+            <br><br>
+            Ejemplo:
+            <br><br>
+            <img src="../img/infojs/ejemplo15.png" alt="">
+          </li>
+          <li>
+            Ámbito de las variables: Las variables en JavaScript pueden tener ámbito global (accesibles desde cualquier
+            parte del programa) o ámbito local (accesibles solo dentro de un bloque de código específico).
+            <br><br>
+            Ejemplo:
+            <br><br>
+            <img src="../img/infojs/ejemplo16.png" alt="">
+          </li>
+        </ol>
+        </p>
+    
+        <h3>Constantes en JS</h3>
+    
+        <p>
+          En JavaScript, las constantes son variables cuyo valor no puede cambiar una vez que se les ha asignado. Se
+          declaran utilizando la palabra clave const. Aquí tienes información resumida y precisa sobre las constantes en
+          JavaScript:
+    
+        <ol>
+          <li>
+            Declaración de constantes: Para crear una constante en JavaScript, se utiliza la palabra clave const, seguida de
+            un nombre único para identificarla.
+            <br><br>
+            Ejemplo:
+            <br><br>
+            <img src="../img/infojs/ejemplo17.png" alt="">
+          </li>
+          <li>
+            Asignación de valor: Una vez declarada una constante, se le asigna un valor que no podrá ser modificado
+            posteriormente.
+            <br><br>
+            Ejemplo:
+            <br><br>
+            <img src="../img/infojs/ejemplo18.png" alt="">
+          </li>
+          <li>
+            Características de las constantes:
+            <br><br>
+            <ul>
+              <li class="l22">
+                El valor de una constante no puede cambiarse después de su asignación.
+              </li>
+              <li class="l22">
+                Las constantes deben inicializarse con un valor al declararlas.
+              </li>
+              <li class="l22">
+                El nombre de una constante debe ser único dentro de su ámbito.
+              </li>
+            </ul>
+            Ejemplo:
+            <br><br>
+            <img src="../img/infojs/ejemplo19.png" alt="">
+          </li>
+        </ol>
+        </p>
+    
+        <h3>Operadores en JS</h3>
+    
+        <p>
+          En JavaScript, los operadores se utilizan para realizar diferentes tipos de operaciones en los valores y
+          variables. Aquí tienes una lista de los operadores más comunes en JavaScript:
+    
+        <ul>
+          <li>
+            Operadores aritméticos:
+            <br><br>
+            <ul>
+              <li class="l22">
+                Suma: "+"
+              </li>
+              <li class="l22">
+                Resta: "-"
+              </li>
+              <li class="l22">
+                Multiplicación: "*"
+              </li>
+              <li class="l22">
+                División: "/"
+              </li>
+              <li class="l22">
+                Módulo (resto de la división):"%"
+              </li>
+              <li class="l22">
+                Incremento: "++"
+              </li>
+              <li class="l22">
+                Decremento: "--"
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <p class="p3">Ejemplo:</p>
+        <img src="../img/infojs/ejemplo20.png" alt="" class="p3">
+    
+        <!-- separador -->
+    
+        <ul>
+          <li>
+            Operadores de asignación:
+            <br><br>
+            <ul>
+              <li class="l22">
+                Asignación: =
+              </li>
+              <li class="l22">
+                Asignación con suma: +=
+              </li>
+              <li class="l22">
+                Asignación con resta: -=
+              </li>
+              <li class="l22">
+                Asignación con multiplicación: *=
+              </li>
+              <li class="l22">
+                Asignación con división: /=
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <p class="p3">Ejemplo:</p>
+        <img src="../img/infojs/ejemplo21.png" alt="" class="p3">
+    
+        <!-- separador -->
+    
+        <ul>
+          <li>
+            Operadores de comparación:
+            <br><br>
+            <ul>
+              <li class="l22">
+                Igualdad estricta: ===
+              </li>
+              <li class="l22">
+                Desigualdad estricta: !==
+              </li>
+              <li class="l22">
+                Mayor que: >
+              </li>
+              <li class="l22">
+                Menor que: < </li>
+              <li class="l22">
+                Mayor o igual que: >=
+              </li>
+              <li class="l22">
+                Menor o igual que: <= </li>
+            </ul>
+          </li>
+        </ul>
+        <p class="p3">Ejemplo:</p>
+        <img src="../img/infojs/ejemplo22.png" alt="" class="p3">
+    
+        <!-- Separador -->
+    
+        <ul>
+          <li>
+            Operadores lógicos:
+            <br><br>
+            <ul>
+              <li class="l22">
+                AND lógico: &&
+              </li>
+              <li class="l22">
+                OR lógico: ||
+              </li>
+              <li class="l22">
+                NOT lógico: !
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <p class="p3">Ejemplo:</p>
+        <img src="../img/infojs/ejemplo23.png" alt="" class="p3">
+        </p>
+    
+        <h3>Tipos de datos en JS</h3>
+    
+        <p>
+          En JavaScript, existen varios tipos de datos que se utilizan para almacenar y manipular información.
+    
+        <ol>
+          <li>
+            Números (Number): Representan valores numéricos, ya sean enteros o decimales, estos pueden ir con o sin
+            comillas, si se colocan entre
+            comillas se consideran como cadenas de texto (strings) en lugar de números y si se intenta realizar una
+            operación matemática con números escritos entre comillas, JavaScript los tratará como cadenas y
+            realizará una concatenación en lugar de una operación matemática, lo mas recomendable es colocarlos sin comillas
+            pera que JS los tome como valores numéricos y asi se puedan realizar operaciones:
+            <br><br>
+            Ejemplo:
+            <br><br>
+            <img src="../img/infojs/ejemplo12.png" alt="">
+          </li>
+          <li>
+            Cadenas de texto (String): Representan una secuencia de caracteres encerrados entre comillas simples o dobles.
+            <br><br>
+            Ejemplo:
+            <br><br>
+            <img src="../img/infojs/ejemplo24.png" alt="">
+          </li>
+          <li>
+            Booleanos (Boolean): Representan un valor lógico verdadero o falso.
+            <br><br>
+            Ejemplo:
+            <br><br>
+            <img src="../img/infojs/ejemplo25.png" alt="">
+          </li>
+          <li>
+            Arreglos (Array): Almacenan una colección ordenada de elementos en una variable.
+            <br><br>
+            Ejemplo:
+            <br><br>
+            <img src="../img/infojs/ejemplo26.png" alt="">
+          </li>
+          <li>
+            Objetos (Object): Representan una colección de propiedades y valores relacionados, ya sean de una persona o de
+            un
+            objeto.
+            <br><br>
+            Ejemplo:
+            <br><br>
+            <img src="../img/infojs/ejemplo27.png" alt="">
+          </li>
+          <li>
+            Valores nulos (Null) y sin definir (Undefined): Representan la ausencia de un valor o un valor no asignado.
+            <br><br>
+            Ejemplo:
+            <br><br>
+            <img src="../img/infojs/ejemplo28.png" alt="">
+          </li>
+        </ol>
+        </p>
+    
+    
+        <h3>Funciones en JS</h3>
+    
+        <p>
+          En JavaScript, las funciones son bloques de código reutilizables que se utilizan para realizar tareas específicas.
+    
+        <ol>
+          <li>
+            Ejemplo de declaración de función y llamada de función:
+            <br><br>
+            <img src="../img/infojs/ejemplo29.png" alt="">
+            <br><br>
+            En este ejemplo, se define la función saludar que muestra el mensaje "¡Hola!" en la consola. Luego, se llama a
+            la función saludar() para ejecutar el código dentro de ella y se muestra en la consola el mensaje "¡Hola!".
+          </li>
+          <li>
+            Ejemplo de función con retorno de valor:
+            <br><br>
+            <img src="../img/infojs/ejemplo30.png" alt="">
+            <br><br>
+            En este ejemplo, se declara la función sumar que recibe dos parámetros a y b. Dentro de la función, se realiza
+            la suma de a y b utilizando el operador + y se devuelve el resultado con la palabra clave return. Luego, se
+            llama a la función sumar pasando los argumentos 5 y 3, y se guarda el resultado en la variable resultado.
+            Finalmente, se muestra el valor de resultado en la consola, que en este caso es 8.
+          </li>
+        </ol>
+        </p>
+    
+    
+        <h3>Objetos en JS</h3>
+        <p>
+          Los objetos en JavaScript son estructuras de datos que permiten almacenar y organizar información relacionada.
+          Imagina que los objetos en JavaScript son como contenedores que pueden almacenar diferentes tipos de información.
+          Cada contenedor tiene etiquetas (propiedades) y dentro de ellas puedes guardar valores.
+          <br><br>
+          Por ejemplo, supongamos que queremos representar información sobre una persona. Podemos crear un objeto llamado
+          persona y agregar propiedades como nombre, edad y profesión, junto con sus respectivos valores:
+          <br><br>
+          <img src="../img/infojs/ejemplo31.png" alt="">
+          <br><br>
+          En este caso, nombre, edad y profesion son las propiedades del objeto persona. "Juan", 30 y "programador" son los
+          valores asociados a cada propiedad.
+          <br><br>
+          Para acceder a los valores de un objeto, podemos utilizar la notación de punto o la notación de corchetes. Por
+          ejemplo:
+          <br><br>
+          <img src="../img/infojs/ejemplo32.png" alt="">
+          <br><br>
+          Podemos modificar los valores de las propiedades de un objeto de la siguiente manera:
+          <br><br>
+          <img src="../img/infojs/ejemplo33.png" alt="">
+          <br><br>
+          En este caso, cambiamos el valor de la propiedad profesion de "programador" a "diseñador".
+        </p>
+    
+        <h3>Matrices en JS</h3>
+    
+        <p>
+          Las matrices, también conocidas como arrays, son estructuras de datos que nos permiten almacenar múltiples valores
+          en una sola variable. Pueden contener diferentes tipos de datos, como números, cadenas, objetos, e incluso otras
+          matrices.
+    
+        <ul class="ejem">
+          <li>
+            Ejemplo 1:
+            <br><br>
+            <img src="../img/infojs/ejemplo34.png" alt="">
+            <br><br>
+            En este ejemplo, se crea una matriz llamada numeros que contiene una secuencia de números del 1 al 5. Cada
+            número se separa por comas y se encierra en corchetes [].
+          </li>
+          <li>
+            Ejemplo 2:
+            <br><br>
+            <img src="../img/infojs/ejemplo35.png" alt="">
+            <br><br>
+            Aquí, se declara una matriz llamada frutas que almacena diferentes nombres de frutas. Cada nombre de fruta se
+            escribe entre comillas y se separa por comas.
+            <br><br>
+            Podemos acceder a los elementos de una matriz utilizando su índice, que es la posición del elemento en la
+            matriz. Los índices comienzan desde 0 para el primer elemento.
+          </li>
+          <li>
+            Ejemplo 3:
+            <br><br>
+            <img src="../img/infojs/ejemplo36.png" alt="">
+            <br><br>
+            Aquí, se declara una matriz llamada frutas que almacena diferentes nombres de frutas. Cada nombre de fruta se
+            escribe entre comillas y se separa por comas.
+            <br><br>
+            Podemos acceder a los elementos de una matriz utilizando su índice, que es la posición del elemento en la
+            matriz. Los índices comienzan desde 0 para el primer elemento.
+          </li>
+          <li>
+            Ejemplo 4:
+            <br><br>
+            <img src="../img/infojs/ejemplo37.png" alt="">
+            <br><br>
+            Aquí, se modifica el valor del elemento en el índice 2 (que es el número 3 originalmente) y se le asigna el
+            valor 10. Al imprimir numeros, vemos que el valor ha sido actualizado.
+          </li>
+        </ul>
+        </p>
+    
+        <h3>if, else y else if en JS</h3>
+        <p>
+          Las estructuras condicionales nos permiten tomar decisiones en nuestro código dependiendo de ciertas condiciones.
+          En JavaScript, utilizamos las siguientes estructuras:
+    
+        <ol>
+          <li>
+            if: Nos permite ejecutar un bloque de código si una condición es verdadera.
+            <br><br>
+            <img src="../img/infojs/ejemplo38.png" alt="">
+            <br><br>
+            En este ejemplo, si la variable edad es igual o mayor a 18, se imprimirá en la consola el mensaje "Eres mayor de
+            edad".
+          </li>
+          <li>
+            else: La estructura else se utiliza junto con if y nos permite especificar un bloque de código que se ejecutará
+            si la condición en el if es falsa.
+            <br><br>
+            <img src="../img/infojs/ejemplo39.png" alt="">
+            <br><br>
+            En este caso, si la variable hora es menor a 12, se mostrará "Buenos días". Si no, se ejecutará el bloque de
+            código dentro del else y se mostrará "Buenas tardes".
+          </li>
+          <li>
+            else if: La estructura else if nos permite evaluar múltiples condiciones consecutivas si la condición anterior
+            es falsa. Puede haber varios bloques else if después del if, pero solo se ejecutará el primero que cumpla su
+            condición. si la condición en el if es falsa.
+            <br><br>
+            <img src="../img/infojs/ejemplo40.png" alt="">
+            <br><br>
+            En este ejemplo, si la variable hora es menor a 12, se mostrará "Buenos días". Si no, se evaluará la siguiente
+            condición y si hora es menor a 18, se mostrará "Buenas tardes". Si ninguna de las condiciones anteriores se
+            cumple, se ejecutará el bloque de código dentro del else y se mostrará "Buenas noches".
+          </li>
+        </ol>
+        </p>
+    
+        <h3>Bucles en JS</h3>
+        <p>
+          Los bucles nos permiten ejecutar un bloque de código repetidamente mientras se cumpla una condición específica. En
+          JavaScript, los bucles más comunes son el bucle for y el bucle while.
+    
+        <ol>
+          <li>
+            Bucle for: Se utiliza cuando se conoce de antemano cuántas veces se debe repetir el bloque de código.
+            <br><br>
+            <img src="../img/infojs/ejemplo41.png" alt="">
+            <br><br>
+            En este ejemplo, el bucle for se ejecutará 5 veces. La variable i se inicializa en 0 y mientras i sea menor a 5,
+            se ejecutará el bloque de código. Después de cada iteración, se incrementa el valor de i en 1. En la consola se
+            mostrarán los números del 0 al 4.
+          </li>
+          <li>
+            Bucle while: Se utiliza cuando no se sabe exactamente cuántas veces se debe repetir el bloque de código, pero se
+            conoce la condición de salida.
+            <br><br>
+            <img src="../img/infojs/ejemplo42.png" alt="">
+            <br><br>
+            En este ejemplo, el bucle while se ejecutará mientras la variable contador sea menor a 5. En cada iteración, se
+            mostrará el valor de contador en la consola y luego se incrementará en 1. El bucle se detendrá cuando contador
+            sea igual o mayor a 5.
+          </li>
+          <li>
+            Bucle do-while: Similar al bucle while, pero la condición se evalúa al final, lo que garantiza que el bloque de
+            código se ejecute al menos una vez.
+            <br><br>
+            <img src="../img/infojs/ejemplo43.png" alt="">
+            <br><br>
+            En este ejemplo, el bucle do-while se ejecutará al menos una vez, ya que la condición se evalúa después de
+            ejecutar el bloque de código. Luego, mientras i sea menor a 5, se repetirá el bloque y se incrementará el valor
+            de i. Los números del 0 al 4 se mostrarán en la consola.
+          </li>
+        </ol>
+        </p>
+    
+        <h3>Precedencia en JS</h3>
+    
+        <p>
+          La precedencia de operadores describe el orden en que se realizan las operaciones en una expresión aritmética.
+          <br><br>
+          La multiplicación ( *) y la división ( /) tienen mayor precedencia que la suma ( +) y la resta (-).
+    
+        <ul>
+          <li>
+            Como en las matemáticas tradicionales, primero se hace la multiplicación:
+            <br><br>
+            <img src="../img/infojs/ejemplo44.png" alt="">
+          </li>
+          <li>
+            Cuando se usan paréntesis, las operaciones dentro de los paréntesis se calculan primero:
+            <br><br>
+            <img src="../img/infojs/ejemplo45.png" alt="">
+          </li>
+          <li>
+            Las operaciones con la misma precedencia (como * y /) se calculan de izquierda a derecha:
+            <br><br>
+            <img src="../img/infojs/ejemplo46.png" alt="">
+          </li>
+        </ul>
+        </p>
+    
+        <h3>Clases en JS</h3>
+    
+        <p>
+          En JavaScript, las clases son una forma de crear objetos con propiedades y métodos. Proporcionan una sintaxis más
+          clara y orientada a objetos para la programación. Aquí tienes una explicación breve sobre cómo trabajar con clases
+          en JavaScript:
+    
+        <ol>
+          <li>
+            Declaración de una clase: Para declarar una clase, se utiliza la palabra clave class, seguida del nombre de la
+            clase en CamelCase.
+            <br><br>
+            <img src="../img/infojs/ejemplo47.png" alt="">
+            <br><br>
+            En este ejemplo, se declara una clase llamada Persona. La clase tiene un constructor que recibe dos parámetros:
+            nombre y edad. Dentro del constructor, se asignan los valores recibidos a las propiedades nombre y edad del
+            objeto utilizando la palabra clave this.
+          </li>
+          <li>
+            Métodos de instancia: Los métodos de instancia son funciones que se definen dentro de la clase y se asocian con
+            cada objeto creado a partir de la clase.
+            <br><br>
+            <img src="../img/infojs/ejemplo48.png" alt="">
+            <br><br>
+            En este ejemplo, además del constructor, se agrega un método llamado saludar() a la clase Persona. El método
+            saludar() muestra un mensaje en la consola que incluye el nombre de la persona. Al llamar a este método en un
+            objeto creado a partir de la clase Persona, se mostrará el mensaje en la consola.
+          </li>
+        </ol>
+        <br><br>
+    
+        <h3>Ejercicios</h3>
+        <p>
+          Aqui te dejamos unos ejercicios realizados en el framework Replit, en donde se usa html, css y js. En este podras
+          encontrar el codigo de cada uno de estos documentos y su funcionalidad:
+          <br><br>
+          <button id="Boton2" class="boton3"><strong>Ir a Replit</strong></button>
+        </p>
+    
+        <br><br><br>
+    
+        <button id="Boton" class="boton1"><strong>Atras</strong></button>
+        <button id="Boton1" class="boton2"><strong>Siguiente</strong></button>
+        </p>
+    </div>
+
+   <footer>
+        <div class="footer-container">
+            <div class="footer-content-container">
+                <h3 class="website-logo">WebTrilogy</h3>
+                <span class="footer-info">webtrilogy@gmail.com</span>
+            </div>
+            <div class="footer-menus">
+                <div class="footer-content-container">
+                    <span class="menu-title">Dueños y Desarrolladores</span>
+                    <br>
+                    <span class="menu-item-footer">Hector Estiven Caro Moreras</span>
+                    <br><br>
+                    <span class="menu-item-footer">Michael Estiven Camacho Castillo</span>
+                </div>
+                <div class="footer-content-container">
+                    <span class="menu-title">Contacto</span>
+                    <a href="" class="menu-item-footer">hecaro29@misena.edu.co</a>
+                    <a href="" class="menu-item-footer">322 440 1981</a>
+                    <br>
+                    <a href="" class="menu-item-footer">mecamacho587@misena.edu.co</a>
+                    <a href="" class="menu-item-footer">321 347 5029</a>
+                </div>
+            </div>
+            
+            <div class="footer-content-container">
+                <span class="menu-title">Acerca de nosotros</span>
+                <div class="social-container">
+                    <span class="social-link"> WebTrilogy es una plataforma educativa en línea que ofrece<br> recursos y tutoriales para aprender HTML, CSS y JavaScript de <br> manera efectiva. Nuestro objetivo es ayudar a los estudiantes y entusiastas <br> de la programación a adquirir habilidades sólidas en el desarrollo web.
+ </span>
+             
+                </div>
+            </div>
+        </div>
+        <div class="copyright-container">
+            <span class="copyright">Copyright 2023, WebTrilogy, todos los derechos reservados.</span>
+        </div>
+    </footer>
+
+    <script src="../JS/principal.js"></script>
+</body>
+</html>
+ 

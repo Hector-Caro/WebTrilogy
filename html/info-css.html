@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,
+    maximum-scale=1.0,minimum-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/png" href="../img/principal/logo.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <title>WebTrilogy</title>
+</head>
+<body>
+
+  <nav>
+    <div class="logo">
+      <img src="../img/principal/logo.png" alt="logo" class="logo1">
+    </div>
+    <div class="CODE">
+      <h1>WebTrilogy</h1>
+    </div>
+        
+        
+    <div class="nav-links" id="nav1">
+      <ul>
+        <li><a href="../index.html" id="inicio">Inicio</a></li>
+        <li><a href="info.html" id="html">HTML</a></li>
+        <li><a href="info-css.html" id="css">CSS</a></li>
+        <li><a href="info-js.html" id="js">JavaScript</a></li>
+        <li><a href="masinfo.html" id="mas">Más Información</a></li>
+      </ul>
+    </div>
+  </nav>
+
+    <div class="contenedor">
+
+        <h2>CSS</h2>
+    
+        <h3>¿Que es?</h3>
+        <p>
+          CSS (Cascading Style Sheets) es un lenguaje utilizado para diseñar y dar estilo a las páginas web. Permite
+          controlar cómo se ven los elementos HTML.
+          <br><br>
+          Por ejemplo, si queremos cambiar el color del texto de todos los títulos de nivel 1 a azul, podemos usar CSS de la
+          siguiente manera:
+        </p>
+        <img src="../img/infocss/ejemplo1.png" alt="ejemplo1" class="ejemplo1">
+        <p>
+          En este caso, "h1" es el selector que indica que queremos aplicar el estilo a todos los elementos "h1" en la
+          página. "color" es la propiedad que estamos modificando y "blue" es el valor que le estamos dando.
+        </p>
+        <p>
+          CSS también permite estilos más avanzados, como seleccionar elementos por su clase o identificador. Por ejemplo,
+          si queremos aplicar un estilo a un elemento con la clase "destacado", podemos hacerlo así:
+        </p>
+        <img src="../img/infocss/ejemplo2.png" alt="ejemplo2" class="ejemplo2">
+        <p>
+          Aquí, ".destacado" es el selector de clase y aplicará el estilo a todos los elementos que tengan esa clase. En
+          este caso, estamos cambiando el color de fondo a amarillo y agregando un borde negro de 1 píxel de grosor.
+        </p>
+        <p>
+          Pero aún debes aplicar el CSS a tu documento HTML, de otra manera el estilo CSS no cambiará cómo tu navegador
+          muestra el documento HTML.
+    
+        <ol>
+          <li>
+            Abre tu archivo index.html y pega la siguiente línea en algún lugar dentro del
+            &lt;head&gt;, es decir, entre las etiquetas &lt;head&gt; y &lt;/head&gt;:
+            <br><br>
+            <img src="../img/infocss/ejemplo3.png" alt="">
+          </li>
+          <li>
+            Guarda el archivo index.html y cárgalo en tu navegador. Debes ver algo como esto:
+            <br><br>
+            <img src="../img/infocss/ejemplo4.png" alt="">
+          </li>
+        </ol>
+        </p>
+    
+        <h3>Estructura</h3>
+    
+        <img src="../img/infocss/estructura.png" alt="estructura del css">
+    
+        <h4>Selector:</h4>
+    
+        <p class="selector">
+          El selector es utilizado para seleccionar los elementos HTML a los que deseas aplicar estilos. Puedes seleccionar
+          elementos por su nombre de etiqueta, clase, identificador o incluso por su posición en la estructura HTML. Por
+          ejemplo:
+    
+        <ul>
+          <li>
+            <strong>Selector de etiqueta:</strong> h1, p, div selecciona todos los elementos con esa etiqueta.
+          </li>
+          <li>
+            <strong>Selector de clase:</strong> .destacado selecciona todos los elementos que tienen la clase "destacado".
+          </li>
+          <li>
+            <strong>Selector de identificador:</strong> #encabezado selecciona el elemento con el identificador
+            "encabezado".
+          </li>
+        </ul>
+        </p>
+    
+        <h4>Declaración:</h4>
+    
+        <p class="selector">
+          Declaración: La declaración establece los estilos que se aplicarán a los elementos seleccionados. Consiste en una
+          propiedad y un valor separados por dos puntos. Por ejemplo:
+    
+        <ul>
+          <li>
+            <strong>Propiedad:</strong> Especifica qué característica del elemento se va a modificar, como color, font-size,
+            background-color, etc.
+          </li>
+          <li>
+            <strong>Valor:</strong> Es el valor asignado a la propiedad, como red, 14px, #FFFFFF, etc.
+          </li>
+        </ul>
+        </p>
+        <p class="selector">
+          Aquí tienes un ejemplo básico de cómo se ve una regla CSS completa:
+        </p>
+        <img src="../img/infocss/ejemplo5.png" alt="ejemplo5" class="declaracion">
+        <p class="selector">
+          Además, es posible aplicar múltiples declaraciones a un mismo selector, simplemente separándolas con punto y coma:
+        </p>
+        <img src="../img/infocss/ejemplo6.png" alt="ejemplo6" class="declaracion">
+        <p class="selector">
+          Nota: Otras partes importantes de la sintaxis de css:
+    
+        <ol>
+          <li>
+            <strong>Llaves { }:</strong> Las llaves se utilizan para delimitar un bloque de código CSS. Todo el estilo que
+            deseas aplicar a
+            un selector específico se coloca entre estas llaves. Por ejemplo:
+          </li>
+          <li>
+            <strong>Dos puntos " : "</strong> : Los dos puntos se utilizan para separar una propiedad de su respectivo valor
+            dentro de una declaración CSS.
+          </li>
+          <li>
+            <strong>Punto y coma ; </strong> : El punto y coma se utiliza para separar declaraciones individuales en CSS.
+            Cuando tienes
+            múltiples declaraciones dentro de un bloque de código, cada una de ellas debe terminar con un punto y coma.
+          </li>
+        </ol>
+        </p>
+        <p class="selector">
+          Recuerda que las llaves delimitan el bloque de código, los dos puntos separan las propiedades de los valores, y
+          los puntos y comas separan las declaraciones individuales dentro del bloque de código de CSS. Estos elementos son
+          esenciales para estructurar y separar las diferentes partes de tu código CSS de manera correcta.
+        </p>
+    
+        <h4>Seleccionar varios elementos</h4>
+        <p class="selector">
+          Puedes enumerar los selectores separados por comas para seleccionar varios elementos al mismo tiempo. Por ejemplo:
+        </p>
+        <img src="../img/infocss/ejemplo7.png" alt="ejemplo7" class="declaracion">
+    
+        <h4>Fuentes y texto</h4>
+    
+        <p class="selector">
+          Para agregar un tipo de letra personalizado en tu página web, sigue estos pasos:
+    
+        <ol>
+          <li>
+            Primero busca el tipo de letra que deseas usar, en este ejemplo usaremos la Poppins de googleapis.
+            <br>
+            <img src="../img/infocss/ejemplo8.png" alt="">
+          </li>
+          <li>
+            Ya que tenemos el enlace del tipo de letra, lo colocaremos dentro de las etiquetas &lt;head&gt; y &lt;/head&gt;.
+            <br><br>
+            <img src="../img/infocss/ejemplo9.png" alt="">
+          </li>
+          <li>
+            Ahora ya que agregamos el enlace el estilo de la fuente "Poppins" estan importados, ya podemos usar la fuente
+            en el css especicando "Poppins" con la propiedad "font-family", asi como se muestra en la siguiente imagen:
+            <br><br>
+            <img src="../img/infocss/ejemplo10.png" alt=""> <br><br>
+    
+            En el ejemplo se esta diciendo que queremos que todo el cuerpo del documento HTML este con esta fuente, pero
+            tambien lo podemos colocar en ciertas estiquetas y solo en esas.
+            <br><br>
+            <img src="../img/infocss/ejemplo11.png" alt="">
+            <br><br>
+            En este caso queremos que la fuente solo se aplique en las estiquetas "&lt;p&gt;" y deja
+            las otras etiqueta con la fuente predeterminada.
+            <br><br>
+            <img src="../img/infocss/ejemplo12.png" alt="">
+        </ol>
+        </p>
+    
+    
+        <h3>¿Cajas en CSS?</h3>
+    
+        <p>
+          En CSS, muchas veces se utiliza el concepto de cajas para describir y controlar la presentación de los elementos
+          en una página web. Sin embargo, no todo en CSS se trata exclusivamente de cajas.
+          <br><br>
+          Las cajas en CSS se refieren a la representación visual de los elementos HTML, donde cada elemento se considera
+          una caja rectangular con propiedades como ancho, alto, margen, relleno, borde, etc. Algunas propiedades CSS
+          comunes que se aplican a las cajas incluyen:
+    
+        <ul>
+          <li>
+            width y height: para establecer el ancho y alto de la caja.
+          </li>
+          <li>
+            margin y padding: para controlar los márgenes y el espacio interno de la caja.
+          </li>
+          <li>
+            border: para definir el borde de la caja.
+          </li>
+          <li>
+            background: para establecer el color o imagen de fondo de la caja.
+          </li>
+        </ul>
+        </p>
+        <p>
+          Sin embargo, CSS no se limita únicamente a las cajas. También permite controlar otros aspectos de estilo y diseño
+          de
+          una página web, como:
+    
+        <ul>
+          <li>
+            Fuentes y tipografía: puedes definir el tipo de letra, tamaño, peso, estilo, entre otros, para el texto de tus
+            elementos.
+          </li>
+          <li>
+            Posicionamiento y diseño: CSS ofrece herramientas para posicionar y diseñar elementos en la página, ya sea
+            mediante flujos de caja normales, flexbox o grid.
+          </li>
+          <li>
+            Animaciones y transiciones: puedes crear efectos de animación y transición utilizando CSS.
+          </li>
+          <li>
+            Estilos de fondo: puedes aplicar colores, imágenes o gradientes de fondo a los elementos de la página.
+          </li>
+          <li>
+            Estilización de enlaces: CSS permite personalizar el estilo de los enlaces, como el color, subrayado o efectos
+            al pasar el cursor sobre ellos.
+          </li>
+          <li>
+            Medios y diseño responsivo: puedes utilizar CSS para adaptar el diseño y estilo de la página a diferentes
+            dispositivos y tamaños de pantalla.
+          </li>
+        </ul>
+        </p>
+        <br><br>
+        <button id="Boton" class="boton1"><strong>Atras</strong></button>
+        <button id="Boton1" class="boton2"><strong>Siguiente</strong></button>
+    </div>
+
+   <footer>
+        <div class="footer-container">
+            <div class="footer-content-container">
+                <h3 class="website-logo">WebTrilogy</h3>
+                <span class="footer-info">webtrilogy@gmail.com</span>
+            </div>
+            <div class="footer-menus">
+                <div class="footer-content-container">
+                    <span class="menu-title">Dueños y Desarrolladores</span>
+                    <br>
+                    <span class="menu-item-footer">Hector Estiven Caro Moreras</span>
+                    <br><br>
+                    <span class="menu-item-footer">Michael Estiven Camacho Castillo</span>
+                </div>
+                <div class="footer-content-container">
+                    <span class="menu-title">Contacto</span>
+                    <a href="" class="menu-item-footer">hecaro29@misena.edu.co</a>
+                    <a href="" class="menu-item-footer">322 440 1981</a>
+                    <br>
+                    <a href="" class="menu-item-footer">mecamacho587@misena.edu.co</a>
+                    <a href="" class="menu-item-footer">321 347 5029</a>
+                </div>
+            </div>
+            
+            <div class="footer-content-container">
+                <span class="menu-title">Acerca de nosotros</span>
+                <div class="social-container">
+                    <span class="social-link"> WebTrilogy es una plataforma educativa en línea que ofrece<br> recursos y tutoriales para aprender HTML, CSS y JavaScript de <br> manera efectiva. Nuestro objetivo es ayudar a los estudiantes y entusiastas <br> de la programación a adquirir habilidades sólidas en el desarrollo web.
+ </span>
+             
+                </div>
+            </div>
+        </div>
+        <div class="copyright-container">
+            <span class="copyright">Copyright 2023, WebTrilogy, todos los derechos reservados.</span>
+        </div>
+    </footer>
+
+  <script src="../Js/cssB.js"></script>
+</body>
+</html>
+ 
